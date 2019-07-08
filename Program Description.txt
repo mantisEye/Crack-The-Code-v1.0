@@ -1,0 +1,38 @@
+
+Crack The Code v1.0
+-------------------
+
+This program solves logic puzzles by using given hints to crack the lock's
+code. The user may design a puzzle for the program to solve by providing 
+the hints, or the program can create its own puzzle/hints.
+
+* The "Generate" button will auto-generate a randomized puzzle that the 
+  user can try to solve. 
+  The answer can be revealed by clicking on the "Solve" button. 
+
+* The "Reset" button will reset the hints to their initial default values. 
+
+* The "Solve" button will solve the puzzle and display the answer.
+  If the puzzle cannot be solved, it will display an error message. 
+  There are two cases where the program is unable to solve the puzzle: 
+  1- If the hints provided are not enough to conclude a solution.
+  2- If the hints provided are contradictory and makes no sense. 
+
+Users can use the editing tools to design their own puzzles....
+
+* The "+" button adds a new line.
+
+* The "-" subtracts a line. 
+
+* The user can navigate through the slots using arrow keys or the mouse
+  to enter a number.
+
+* The user can change a hint box by clicking on it. 
+
+Please note that the answer must not contain repeated numbers. Otherwise
+it will be an error. 
+
+
+---------------------------------
+Developed by I.S using Python 3.6
+---------------------------------
